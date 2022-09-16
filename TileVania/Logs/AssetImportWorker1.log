@@ -15,7 +15,7 @@ C:/Program Files (x86)/UnityProjects/TileVania/TileVania
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54047
+50043
 Successfully changed project path to: C:/Program Files (x86)/UnityProjects/TileVania/TileVania
 C:/Program Files (x86)/UnityProjects/TileVania/TileVania
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Program Files (x86)/UnityProjects/TileVania/TileVania
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 105.60 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 70.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -58,84 +58,84 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
     Vendor:   NVIDIA
     VRAM:     10078 MB
-    Driver:   31.0.15.1659
+    Driver:   31.0.15.1694
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004087 seconds.
+Registered in 0.003033 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 102.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 75.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.629 seconds
+- Completed reload, in  0.518 seconds
 Domain Reload Profiling:
-	ReloadAssembly (630ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (518ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (462ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (382ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
+			SetupTypeCache (83ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (300ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (239ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
+				InitializePlatformSupportModulesInManaged (44ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005039 seconds.
+Registered in 0.005485 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Program Files (x86)\UnityProjects\TileVania\TileVania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Program Files (x86)\UnityProjects\TileVania\TileVania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 73.47 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 75.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.135 seconds
+- Completed reload, in  1.089 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1136ms)
-		BeginReloadAssembly (220ms)
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (131ms)
-		EndReloadAssembly (809ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (217ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (429ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (396ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (224ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (222.4 KB). Loaded Objects now: 4509.
-Memory consumption went from 151.0 MB to 150.8 MB.
-Total: 6.054400 ms (FindLiveObjects: 0.428400 ms CreateObjectMapping: 0.220800 ms MarkObjects: 5.107900 ms  DeleteObjects: 0.295200 ms)
+Unloading 44 unused Assets / (222.9 KB). Loaded Objects now: 4509.
+Memory consumption went from 151.1 MB to 150.9 MB.
+Total: 3.659500 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.108500 ms MarkObjects: 3.127300 ms  DeleteObjects: 0.123400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,34 +162,94 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 56751.546839 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.015680 seconds 
+  Time since last request: 65557.644652 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_0.asset
+  artifactKey: Guid(f79cf74a7f79afe4f9c8b9e7909e7046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_0.asset using Guid(f79cf74a7f79afe4f9c8b9e7909e7046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c1989ba1a314a8c215afb0042ff95f') in 0.079178 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.603468 seconds.
-  path: Assets/Sprites/SPA_Background brown tint.png
-  artifactKey: Guid(f9bf3ad6648befb4b80b678cb11d6108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SPA_Background brown tint.png using Guid(f9bf3ad6648befb4b80b678cb11d6108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed99001c96eaaf77cfab3b42f8385c5') in 0.153722 seconds 
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_16.asset
+  artifactKey: Guid(e2a4cf185270a1a4ab2f60612bba9cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_16.asset using Guid(e2a4cf185270a1a4ab2f60612bba9cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0d335e1d09c48b6b5c7d602eca2754') in 0.016386 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Sprites/Spikes.png
-  artifactKey: Guid(86687f802e39a31429e6412834e59211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Spikes.png using Guid(86687f802e39a31429e6412834e59211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c0c849fe7281b91b69b4a8608648bb') in 0.027125 seconds 
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_8.asset
+  artifactKey: Guid(6a455e23d7068fa4482db9dcf759f94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_8.asset using Guid(6a455e23d7068fa4482db9dcf759f94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f4dfcef40890fb28ccc4904ba39a28') in 0.018173 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Sprites/SPA_Ladder.png
-  artifactKey: Guid(19ce821fa855cab4c89adff885eb09ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SPA_Ladder.png using Guid(19ce821fa855cab4c89adff885eb09ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5158ce1d6ade807c9f16b9b12f39acc3') in 0.027044 seconds 
+  Time since last request: 0.000230 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_27.asset
+  artifactKey: Guid(38dd353ad7af2ed478292cf95104807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_27.asset using Guid(38dd353ad7af2ed478292cf95104807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1d5c7d8051d58e0e34753fe4cd79d2') in 0.023104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_17.asset
+  artifactKey: Guid(f0bf7b0f340261d4cbaf8a1291415237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_17.asset using Guid(f0bf7b0f340261d4cbaf8a1291415237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8bf924f99dd98351b338b45fa0eac6') in 0.019084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_22.asset
+  artifactKey: Guid(c541aed6acd923f47a772381b439240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_22.asset using Guid(c541aed6acd923f47a772381b439240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b90cdfb93eb43c1fd56b9127af0b34') in 0.022779 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000043 seconds.
-  path: Assets/Sprites/SPA_Enemy_Right.png
-  artifactKey: Guid(aeb2936d8d1334b4387199ee7abaed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SPA_Enemy_Right.png using Guid(aeb2936d8d1334b4387199ee7abaed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478075aa0c0b37f7f2cc2f8f3c28940e') in 0.029704 seconds 
+  path: Assets/Tiles/SPA_Rock_Grass_Water_19.asset
+  artifactKey: Guid(160f5d533e10ce5439beabbaa1d9e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_19.asset using Guid(160f5d533e10ce5439beabbaa1d9e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c35a1425ba59d985d93c55c58eda4f8') in 0.016393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_21.asset
+  artifactKey: Guid(6de3dd738913d414ab02ff9cabe6a977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_21.asset using Guid(6de3dd738913d414ab02ff9cabe6a977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325eeb49a80b6e6a6f2c5a06f5d50afb') in 0.015458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_14.asset
+  artifactKey: Guid(599cb38e151741048ae8dfff56b600f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_14.asset using Guid(599cb38e151741048ae8dfff56b600f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf3dbfd7d78120c5635077da6dcc7bc') in 0.020808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_11.asset
+  artifactKey: Guid(560ab29d0954f2f4e99b8800e067af36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_11.asset using Guid(560ab29d0954f2f4e99b8800e067af36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64956b085fa92244bf4f7e8e6b841cd7') in 0.015078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_20.asset
+  artifactKey: Guid(c9b7484a451fc2a489de5f486552a6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_20.asset using Guid(c9b7484a451fc2a489de5f486552a6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb4f3ce1db28bd953fefb03106e3a8d') in 0.020296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_12.asset
+  artifactKey: Guid(97c3670dac547ec42b5dc40368cb8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_12.asset using Guid(97c3670dac547ec42b5dc40368cb8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a35aa2838ea59efba854e967c48d1e2') in 0.024927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_1.asset
+  artifactKey: Guid(0d72fe507dc8b8e4cad11e85e77b16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_1.asset using Guid(0d72fe507dc8b8e4cad11e85e77b16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cff6cf3431892179f864fbaa342393') in 0.023556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_18.asset
+  artifactKey: Guid(0f5cda230f8b9e549bc69d6dce68f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_18.asset using Guid(0f5cda230f8b9e549bc69d6dce68f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c7e93df95a69c728b6c6f9ef56b46a') in 0.025786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_2.asset
+  artifactKey: Guid(4b4d3c69dfbe4cb4f94eb93ba0968c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_2.asset using Guid(4b4d3c69dfbe4cb4f94eb93ba0968c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2615d9d0f02e0bb2493cb27ca3d548') in 0.015598 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
